@@ -1,0 +1,1047 @@
+/*
+Theme Name: Rdp-Tema
+Theme URI: http://www.rainhadapaz.com
+Description: Um tema desenvolvido pela equipe de Desenvolvimento Web RDP
+Author: Fernando Fialho, Leonardo Tadeu, Paulo Oliveira, Vitor Douglas.
+Author URI : http://www.rainhadapaz.com
+Version: 1.0	
+*/
+
+*{
+	border:0px;
+	margin:0;
+	padding:0;
+	
+}
+
+@font-face{
+	font-family: lithos pro;
+	src: url('font/LITHOSPRO-REGULAR.OTF');
+}
+
+@font-face{
+	font-family: engraversgothic bt;
+	src: url('font/engraver.TTF');
+}
+
+
+
+/*****************************************************
+  Pagina index
+ ******************************************************/
+
+	
+	.link{
+		text-decoration: none !important;
+		color: #000 !important;
+	}
+	
+	.descricao{
+		font-family: arial;
+		font-size: 20px;
+		margin:0px !important;
+		color: #08008C;
+	}
+
+	.resumo p{
+		font-family: lithos pro;
+		font-size: 12px !important;
+		margin:0px !important;
+		color: #777;
+		
+	}
+
+	.descricao-min{
+		font-family: arial;
+		font-size: 15px;
+		margin:0px !important;
+		color: #08008C;
+	}
+
+	.resumo-min img{
+		float:left;
+		width:100px;
+	}
+	.resumo-min p{
+		font-family: lithos pro;
+		font-size: 8px !important;
+		float:left;
+		width:175px;
+		padding-left:3px;
+	
+		margin:0px !important;
+		color: #777;
+		
+	}
+
+   
+   .titulo{
+		font-family: lithos pro;
+		color:#2B9AF3;
+		width:590px;
+		border-left: 1px solid #cdcdcd;
+		border-top: 1px solid #cdcdcd;
+   }
+
+/***************************************************************************
+ *  Fotos
+ ***************************************************************************/
+	#foto {
+		 width:590px;
+	     height:200px; 
+	     border-top: 1px solid #cdcdcd;
+		 border-right: 1px solid #cdcdcd;
+		}
+
+	#conteudo-foto{
+		float:left;
+		margin: 0px 0px 0px 0px; 
+	}
+
+/***************************************************************************
+ *  videos
+ ***************************************************************************/
+   #video {
+      width:590px;
+	  height:370px; 
+	  border-right: 1px solid #cdcdcd;
+	  border-top: 1px solid #cdcdcd;
+
+   }
+   
+   .video-destaque{
+		float:left;
+		width: 50%;
+		height: 370px;
+		
+	
+	}
+
+	.video-noticia{
+		float:left;
+		width: 50%;
+		height: 370px;
+		
+	}
+
+	.box-video-noticia{
+		border-bottom: 2px solid #cdcdcd;
+		padding-bottom: 5px; 
+		width: 95%;
+		margin:0px 0px 0px 7px;
+		
+}
+
+
+/****************************************************************************
+ *    Sidebar 
+ ****************************************************************************/
+	#sidebar{
+		margin-right:50px;
+		width:200px;
+		height: 900px;
+		float: right;
+	 }
+
+	#testemunho{
+		margin-top:2px;
+		width:200px;
+		height:100px;
+		background-image:url('img/tetesmunho-simples.png');
+	  }
+
+
+	#pedido{
+		margin-top:5px;
+		width:200px;
+		height:100px;
+		background-image:url('img/pedido-simples.png');
+	 }
+
+	#rcc{
+		border:1px solid #eeeeee;
+		margin-top:5px;
+		width:200px;
+		height:100px;
+		background-image:url('img/logorcc-site.png');
+	 }
+
+	 #paroquia{
+		
+		margin-top:5px;
+		width:200px;
+		height:100px;
+		background-image:url('img/logo-paroquia.png');
+	 }
+
+
+
+
+
+
+body{background-color: #81bff4;}
+/*
+  Cabecalho
+*/
+header#top{
+	
+	
+	width: 100%;
+	height: 200px;
+	background-image: url('img/bg-degrade-3.png');
+	margin:0px;
+} 
+
+div.menu-principal{
+	
+	background-color:#000;
+	width: 100%;
+	height: 37px;
+	/*background-image:url('img/bg_menu.png');*/
+	
+}
+nav#menu-principal {
+	
+	height: 20px;
+	width:800px;
+	margin:auto;
+}
+
+
+
+#menu-principal li{
+	list-style-type:none;
+	display:inline;
+	
+}
+
+
+#menu-principal li a{
+	font-family: engraversgothic bt;
+	font-size: 18px;
+	text-decoration:none;
+	display: inline-block;
+	height: 37px;
+	line-height: 37px;
+	color: rgb(221, 221, 221);
+	padding: 0px 5px;
+	text-shadow: 0px 1px 1px rgb(0, 0, 0);
+	border-right: 1px solid rgb(56, 56, 56);
+
+}
+
+#menu-principal li a:HOVER{
+
+	font-family: engraversgothic bt;
+	font-size: 18px;
+	text-decoration:none;
+	display: inline-block;
+	height: 37px;
+	line-height: 37px;
+	color: rgb(221, 221, 221);
+	padding: 0px 5px;
+	text-shadow: 0px 1px 1px rgb(0, 0, 0);
+	border-right: 1px solid rgb(56, 56, 56);
+	border-bottom: 3px solid blue;
+}
+
+.destaque{
+	border-bottom: 3px solid blue;
+}
+
+div#logo{
+	width:800px;
+	margin:auto;
+}
+
+#conteudo{
+	
+	width:850px;
+	padding: 20px 0px 20px 50px;
+	margin:auto;
+
+	/*background-color: #d9ecfc;*/
+	background-color:#fff;
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.8);
+	border-radius:10px;
+	margin-bottom: 20px;
+	margin-top:10px;
+	
+	
+}
+
+
+
+
+.atalhos-paginas{
+	font-family: News701 bt;
+	font-size: 20px;
+	
+	width:200px;
+	height:250px;
+	float:left;
+	margin-right: 97px;
+}
+
+.atalhos-canto{
+	
+	
+	width:200px;
+	height:250px;
+	float:left;
+	
+	
+}
+
+.atalhos-paginas h2{
+	
+	text-align:center;
+	font-family: arial;
+	font-size: 20px;
+	color:#ffffff;
+	padding: 5px;
+	background-color: #000;
+	margin: 10px 0px 10px 0px;
+	border: 1px solid #000;
+	border-radius: 10px;
+}
+.atalhos-paginas span{
+	color:#cdcdcd;
+	
+	margin:160px;
+	
+	
+}
+
+.atalhos-canto h2{
+	
+	text-align:center;
+	font-family: arial;
+	font-size: 20px;
+	color:#ffffff;
+	margin: 20px;
+}
+.atalhos-canto span{
+	color:#cdcdcd;
+	
+	margin:160px;
+	
+	
+}
+
+
+/*
+ corpo home 
+*/
+
+#section-frase{
+	background-color: #81bff4; 
+	
+}
+
+article#frase{
+	
+	
+	font-family: lithos pro;
+	font-size: 20px;
+	margin:auto;
+	color: #ffffff;
+	
+	width:800px;
+}
+#fecha-aspas{
+	float:right;
+	float:bottom;
+}
+#abre-aspas{
+	float:left;
+	float:top;
+	
+}
+.conteudo-frase p{
+	text-align: center;
+	padding: 20px 25px 20px 25px;
+	
+}
+div.clear{
+	clear: both;
+}
+
+
+
+
+
+
+
+#slide{
+
+	overflow: hidden;
+	height:270px;
+	
+	/*box-shadow: 0px 20px 0px 0px #222;*/
+	position: relative;
+	float: left;
+	/*border-radius: 0px 0px 10px 10px;*/
+	
+	width:800px;
+	
+	
+	
+	background-color: transparent;
+    
+    }
+
+#slide a {
+	position: absolute;
+	z-index: 1;
+	display: none;
+	left: 0;
+}
+
+
+
+
+#slide p{
+	z-index:2;
+	position:absolute;
+	bottom: 10px;;
+	left: 0;
+	width:100%;
+	padding: 10px;
+	font-family: arial;
+	font-size:14px;
+	background: rgba(0,0,0,0.5);
+	color: #fff;
+}
+
+#sobrabanner{
+    width: 800px;
+    margin: 0px auto;
+    background: url("img/bk-sombra-banner.png") no-repeat scroll 0px 0px transparent;
+    height: 50px;
+}
+
+
+#footer1{
+	
+
+	background-repeat:repeat-x;
+	
+	
+}
+#rodape{
+	width:100%;
+	font-size:18px;
+	padding-top: 15px;
+	height:80px;
+	background-color:#000;
+	color:#fff;
+	text-align:center  !important;
+}
+
+#form-footer{
+	width:800px;
+	margin:auto;
+	
+}
+
+#form-footer h2{
+	
+	color: rgb(228,41,199);
+	
+	
+	
+}
+
+#form-footer label{
+	
+	font-family: Tahoma, Arial, Helvetica ,sans-serif;
+	font-size: 14px; 
+	color: #333333;
+	
+	
+}
+
+#form-footer p{
+	margin-top: 10px;
+}
+
+#form-footer input, textarea{
+	
+	background-color:#f1f1f1;
+	border-radius: 8px;
+	
+}
+
+#form-footer input{
+	
+	width: 340px;
+	height: 20px;
+}
+
+#form-footer input[type=submit]{
+	
+	margin-left:280px;
+	border:1px outset #cdcdcd;
+	width: 60px;
+	height: 30px;
+}
+
+#chat{
+	float:right;
+}
+.wpcf7{
+	float:left;
+}
+
+#info-footer1{
+	
+	width: 800px;
+	margin:auto;
+	margin-top:50px;
+	
+}
+
+#info-footer1 span{
+	font-family: engraversgothic bt;
+	font-size: 20px;
+	
+	margin: 30px;
+}
+
+#info-footer1 p{
+	
+	margin: 20px;
+	font-family: engraversgothic bt;
+	font-size: 18px;
+	
+	
+}
+
+#manutencao{
+	
+	background-color: 
+}
+
+.corpo{
+	
+	width: 800px;
+	margin:auto;
+}
+.side{
+	margin-top: 100px;
+	width: 25%;
+	float: left;
+	color:#000;
+	
+	
+	
+	
+}
+
+.post{
+	padding-top:35px;  
+	font-family: arial;
+	width: 75%;
+	font-size:18px;
+	float: left;
+	
+}
+.post h1{
+	
+	color:#0000FF;
+	font-family: engraversgothic bt;
+	text-shadow: 0px 1px 1px rgb(0, 0, 0);
+	width: 400px;
+	font-size: 40px;
+	margin: auto;
+}
+
+.post span{
+	
+	color: #0000FF;
+	font-family: engraversgothic bt;
+	text-shadow: 0px 1px 1px rgb(0, 0, 0);
+	font-size: 60px;
+}
+
+.post p{
+	
+	margin: 10px 5px 5px 5px; 
+}
+.side ul{
+	
+}
+.side li{
+	width: 210px;
+	height:30px;
+	margin-top:3px;
+	list-style-type:none;
+	font-size: 18px;
+	text-align:center;
+	background: blue;
+	border: 8px outset #000080;
+	
+}
+
+.side li a{
+	
+	font-family: engraversgothic bt;
+	text-decoration: none;
+	color:#fff;
+	
+}
+
+.side li:hover{
+	font-family: engraversgothic bt;
+	text-decoration: none;
+	font-size: 20px;
+	border: 8px inset #000080;
+}
+.active{
+	background-color: #B0C4DE;
+}
+
+
+.atalho-foto{
+	float:left;
+	/*margin:20px 0px 0px 0px;
+	padding:5px;*/
+	width: 585px;
+	/*background-color: #d9ecfc;
+	border-radius: 10px 10px 0px 0px;
+	
+	background-color:#fff;
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.8);
+	border-radius:10px;
+	*/
+}
+
+.atalho-foto a{
+	text-decoration:none;
+	
+}
+.atalho-foto h2{
+	
+	
+	padding:5px;
+	padding-left: 5px;
+	font-family: arial;
+	font-size: 20px;
+	color:#000;
+	border-bottom:2px solid blue;
+	border-radius:10px 10px 0px 0px;
+	
+}
+
+
+
+#texto-foto{
+	width:60%;
+	margin: 10px 0px 0px 5px;
+	float:left;
+	
+}
+
+#texto-foto h3{
+		text-align: center;
+		text-decoration: underline;
+}
+
+#texto-foto p{
+	margin-top: 5px;
+	
+}
+
+
+
+.atalho-video{
+	
+	float:left;
+	width: 585px;
+	
+	
+
+}
+
+.box-video-destaque{
+	width: 100%;
+	margin:5px 0px 0px 0px;
+	
+}
+
+/*
+
+
+.box-video-noticia:HOVER{
+	
+	background-color: #cdcdcd;	
+}
+*/
+.video-noticia-conteudo{
+	width:100px;
+	padding:5px;
+	float:left;
+		
+	
+}
+.video-noticia-titulo{
+	width:144px;
+	margin-top:5px;
+	float:left;
+	
+	
+	
+}
+
+.atalho-video a{
+	text-decoration:none;
+	
+}
+.atalho-video h2 ,.botao-banner h2{
+	
+	
+	padding:5px;
+	padding-left: 5px;
+	font-family: arial;
+	font-size: 20px;
+	color:#000;
+
+	border-left:1px solid #cdcdcd;
+	
+}
+
+#conteudo-video{
+	
+	float:left;
+	margin: 10px 10px 0px 10px; 
+}
+
+#texto-video{
+	width:60%;
+	margin: 10px 0px 0px 5px;
+	float:left;
+	
+}
+
+#texto-video h3{
+		text-align: center;
+		text-decoration: underline;
+}
+
+#texto-video p{
+	margin-top: 25px;
+	
+}
+
+.botao-banner{
+	float:left;
+	border: 2px inset #000;
+	border-radius:10px 10px 0px 0px;
+	width:180px;
+	margin: 20px 0px 0px 5px
+}
+
+.botao-banner img{
+	
+	margin-left:5px;
+	
+}
+
+.grade{
+	
+	width:800px;
+	
+}
+
+.coluna1{
+	float:left;
+	width: 600px;
+	
+}
+
+.coluna2{
+	float:left;
+	margin: 5px 0px 0px 5px;
+	width: 180px;
+	height: 630px;
+	
+
+}
+
+.linha-coluna{
+	margin-top: 15px;
+	width: 100%;
+	
+	
+}
+
+.linha-coluna h2{
+	color: #fff;
+}
+
+
+/*
+#pedido:HOVER{
+	background-image:url('img/pedido-de-oracao-2.png');
+}
+*/
+.box-testemunho{
+	padding:30px;
+	margin: 10px 0px 0px 0px;
+	width:750px;
+	height: 200px;
+	
+	background-color:#fff;
+	
+	border:1px solid #eeeeee;
+}
+
+.box-testemunho h2{
+	
+	font-family: engraversgothic bt;
+	font-size: 40px;
+	color:#81BFF4;
+	width: 100%;
+	border-bottom: 1px solid blue;
+}
+
+.box-testemunho p{
+	
+	font-family: engraversgothic bt;
+	font-size:18px;
+	margin-top:20px;
+
+	}
+	
+.titulo-h2{
+	
+	font-family:engraversgothic bt;
+	font-size:40px;
+	text-align: center;
+	
+	margin:20px 0px 20px 0px;
+}
+#conteudo p{
+	
+	font-family:arial;
+	font-size: 18px;
+	margin-right: 40px;
+	
+}
+
+.botao-testemunho{
+	
+	font-family:lithos pro;
+	text-decoration:none;
+	width: 90px;
+	height: 50px;
+	background-color: #6e94ea;
+	padding: 10px 25px 10px 25px;
+	border-radius: 20px;
+	color: #fff;
+}
+
+.box-testemunho-conteudo{
+	
+	height: 170px;
+	margin-bottom: 10px;
+}
+
+.form1{
+	
+	margin:auto;
+	width: 400px;
+}
+
+.wpcf7{
+	margin-top: 20px;
+}
+.wpcf7 p{
+	
+	font-family: engraversgothic bt;
+	font-size: 20px;
+	margin-top: 15px;
+}
+
+
+	
+.wpcf7 input[type=text] , .wpcf7 input[type=email]  { 
+	
+	background-color: #273949;
+	color:#fff;
+	width: 400px;
+	height: 40px;
+	border-radius: 10px; 
+	
+}
+
+.wpcf7 input[type=submit]{
+	
+	
+	background-color: #273949;
+	width: 80px;
+	height: 30px;
+	color: #fff;
+	border-radius:10px;
+	
+}
+
+.wpcf7 textarea{
+	
+	color:#fff;
+	background-color: #273949;
+	width: 400px;
+	font-size:20px;
+}
+
+#pedido-h2{
+	
+	/*color: rgb(221, 221, 221);*/
+	color: rgb(0,66,136);
+	font-family: engraversgothic bt;
+	text-shadow: -2px -2px 1px rgb(109, 201, 232);
+	margin:20px;
+	text-align: center;
+	font-size: 50px;
+}
+
+.link-banner{
+	margin-top: 40px; 
+}
+
+
+.box-video-conteudo{
+	
+	height: 220px;
+	margin-bottom: 10px;
+	
+}
+.box-video{
+	padding:30px;
+	margin: 30px 0px 30px 0px;
+	width:750px;
+	height: 250px;
+	background-color:#fff;
+	border:1px solid #eeeeee;
+	
+}
+
+.coluna-video{
+	
+	
+	width:300px;
+	height:190px;
+	
+	float: left;
+}
+
+.coluna-desc-video{
+	
+	width:440px;
+	height:190px;
+	padding: 0px 0px 0px 10px;
+	
+	float: left;
+}
+
+.box-video h2{
+	
+	font-family: engraversgothic bt;
+	font-size: 40px;
+	width: 100%;
+	border-bottom: 1px solid blue;
+	margin-bottom: 10px;
+	color:#00429A;
+}
+
+.link-video {
+	text-decoration: none;
+ }
+.coluna-desc-video p{
+	
+	font-family: arial;
+	font-size:16px !important;
+	color:#aeaeae;
+
+	}
+
+
+
+
+.box-video-conteudo-index{
+	
+	margin-top:10px;
+	height: 100px;
+	margin-bottom: 10px;
+	
+}
+.box-video-index{
+	padding:30px;
+	margin: 30px 0px 30px 0px;
+	width:800px;
+	height: 250px;
+	background-color: #b0d5ef;
+	border-radius:10px;
+	
+	
+}
+
+.coluna-video-index{
+	
+	
+	width:200px;
+	height:90px;
+	
+	float: left;
+}
+
+.coluna-desc-video-index{
+	
+	width:290px;
+	height:90px;
+	padding: 0px 0px 0px 10px;
+	
+	float: left;
+}
+
+.box-video-conteudo-index h3{
+	
+	font-family: engraversgothic bt;
+	font-size: 30px;
+	width: 100%;
+	border-bottom: 3px solid blue;
+	margin-bottom: 10px;
+}
+
+.coluna-desc-video-index p{
+	
+	font-family: arial !important;
+	font-size:13px !important;
+	
+
+	}
+	
+.post-conteudo{
+	margin: 25px;
+	padding: 10px;
+	background-color: #ffffff;
+	opacity:.7;
+	border: 1px solid #000000;
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
